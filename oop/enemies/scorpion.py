@@ -10,10 +10,10 @@ class Scorpion(Enemy):
   
   def tiles(self):
     return [
-      pygame.image.load('resources/images/scorpion.png'),
-      pygame.image.load('resources/images/scorpion.png'),
-      pygame.image.load('resources/images/scorpion.png'),
-      pygame.image.load('resources/images/scorpion.png')
+      pygame.image.load('resources/images/girl.png'),
+      pygame.image.load('resources/images/girl.png'),
+      pygame.image.load('resources/images/girl.png'),
+      pygame.image.load('resources/images/girl.png')
     ]
   
   def hit_sound(self):
